@@ -1,9 +1,12 @@
 # Welcome to Mindmap
 
 ## This is a set of instructions that will help the user use this tool
-- Please navigate to the `entretien-mind-map` then run the command `./bin/run.sh`
+- Please install `pip install pipenv`,  
+- Navigate to the `entretien-mind-map` once clone on your local machine, 
+- Run commands `pip install flask`, `pip install flask-sqlalchemy`, `pip install treelib`, `pip install markdown`, `pip install pytest`
+- Then run the command `./bin/run.sh`
 - Look on your terminal for the `ip_address` where the application will run, ex : `Running on http://ip_address:5000/`
-- on `mac` -> `command + click`, or on `windows` -> `windows icon + click` to go the application website
+- On `mac` -> `command + click`, or on `windows` -> `windows icon + click` to go the application website
 - `(Press CTRL + C to quit)`
 
 ## `POST` to `/mindmap`

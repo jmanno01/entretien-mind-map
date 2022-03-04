@@ -19,4 +19,4 @@ RUN pipenv install
 # Start app
 EXPOSE 5000
 
-ENTRYPOINT ["/usr/src/test/bin/run.sh"]
+ENTRYPOINT ["/usr/src/test/./bin/run.sh"]
